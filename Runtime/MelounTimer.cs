@@ -3,10 +3,10 @@ using System;
 public class MelounTimer : MonoBehaviour {
 
     public string timerName;
-    bool active;
-    bool externalUpdate;
-    float duration;
-    public float elapsed { get; private set; }
+    public bool active { get; private set; }
+	bool externalUpdate;
+    public float duration { get; private set; }
+	public float elapsed { get; private set; }
     Action<float> callbackDuring;
     Action callbackEnd;
 
