@@ -1,6 +1,6 @@
 {
   "name": "com.filipdufka.meloun-timer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Meloun Timer",
   "description": "Component class to manage coroutines and timed actions.",
   "keywords": [
